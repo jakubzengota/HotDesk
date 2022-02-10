@@ -1,0 +1,53 @@
+.app {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ }
+#AppHeaderText {
+    font-size: 14px;
+    color: #00B194;
+    text-align: left;
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+.wrapper {
+  height: 100vh;
+}
+nav {
+  display: flex;
+}
+.deleted{
+  text-align: right;
+}
+nav button {
+  box-shadow: 0 3px 0 0 rgb(226 228 231 / 75%);
+    margin: 1px 20px 20px 20px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 8px 14px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #00B194;
+    border-color: #00B194;
+}
+a {
+  text-decoration: none;
+}
+
+
+footer {
+  clear: both;
+  position: relative;
+  height: 20px;
+  font-size: 10px;
+  /* margin-top: -30px; */
+}

@@ -1,0 +1,57 @@
+.bookingTable {
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    text-align: center;
+    padding: 50px;
+    margin: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+
+}
+button {
+    font-size: 10px;
+    display: flex;
+    box-shadow: 0 3px 0 0 rgb(226 228 231 / 75%);
+    text-align: center;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 8px 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+
+}
+
+.headerTable {
+    color: #00B194;
+}
+.firstRow {
+    font-weight: bold;
+}
+
+.acceptButton{
+    color: #fff;
+    background-color: #00B194;
+    border-color: #00B194;
+}
+
+.refuseButton {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236
+}
+.deleteButton {
+    color: #00B194;
+    background-color: #fff;
+    border-color: #fff;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0% 25%;
+
+
+
+}
